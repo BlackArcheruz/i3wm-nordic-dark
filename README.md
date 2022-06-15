@@ -31,3 +31,5 @@ and copy config files on ``.config`` folder
 [thunar](https://archlinux.org/packages/?name=thunar)
 
 [gnome-screenshot](https://archlinux.org/packages/?name=gnome+screenshot)
+
+[picom](https://archlinux.org/packages/?name=picom)
