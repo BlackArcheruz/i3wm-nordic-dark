@@ -68,7 +68,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#2E3440' -nf '#81a1c1' -sb '#81a1c1' -sf '#2E3440' -fn 'SourceCodePro:bold:pixelsize=16'
 
 # start rofi full
-bindsym $mod+d exec --no-startup-id rofi -show drun -font "Jet Brains Mono Regular 14"
+bindsym $mod+d exec --no-startup-id rofi -show drun -font "JetBrainsMono Nerd Font Mono Regular 14"
 
 
 
@@ -258,7 +258,7 @@ mode "resize" {
 # is used in the bar {} block below.
 # choose your font
 #font pango:Noto Mono Regular 13
-font pango:Jet Brains Mono 13
+font pango:JetBrainsMono Nerd Font Mono Regular 13
 
 
 
@@ -277,12 +277,17 @@ font pango:Jet Brains Mono 13
 #################                          applications keyboard shortcuts                          #################
 #####################################################################################################################
 
-bindsym $mod+Return exec --no-startup-id alacritty;focus
+bindsym $mod+Return exec --no-startup-id i3-sensible-terminal;focus
 
 bindsym control+mod1+u exec --no-startup-id pavucontrol
 
-bindsym $mod+Shift+Return exec --no-startup-id nautilus
+bindsym $mod+Shift+Return exec --no-startup-id thunar
 
+#####################################################################################################################
+################################               WALLPAPER        #####################################################
+#####################################################################################################################
+
+exec --no-startup-id feh --bg-scale ~/.config/wallpaper/Wallpaper.jpg
 
 
 #####################################################################################################################
@@ -291,7 +296,7 @@ bindsym $mod+Shift+Return exec --no-startup-id nautilus
 
 bindsym Print exec gnome-screenshot
 bindsym $mod+Print exec gnome-screenshot -i
-
+bindsym $mod+g exec flameshot gui
 
 
 #####################################################################################################################
@@ -432,7 +437,7 @@ set $base0F #fcc09e
 bar {
    	height 35
 	position top
-    	font pango:Jet Brains Mono 14
+    	font pango:JetBrainsMono Nerd Font Mono Regular 14
 	status_command i3status
     	tray_padding 10
     	strip_workspace_numbers yes
