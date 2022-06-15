@@ -6,7 +6,7 @@ This is my first i3WM config.
 
 First you need clone my repo
 
-``git clone https://github.com/MuhammadSiddiq-pyxel/i3wm-nordic-dark.git``
+``git clone https://github.com/Blackarcheruz/i3wm-nordic-dark.git``
 
 and go to my repo's folder
 
@@ -23,3 +23,11 @@ and copy config files on ``.config`` folder
 [rofi](https://archlinux.org/packages/?name=rofi)
 
 [alacritty](https://archlinux.org/packages/?name=alacritty)
+
+[flameshot](https://archlinux.org/packages/?name=flameshot)
+
+[pavucontrol](https://archlinux.org/packages/?name=pavucontrol)
+
+[thunar](https://archlinux.org/packages/?name=thunar)
+
+[gnome-screenshot](https://archlinux.org/packages/?name=gnome+screenshot)
